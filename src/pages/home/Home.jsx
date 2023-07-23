@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
+
 import Section from 'components/Section/Section';
 import Container from 'components/Container/Container';
 import css from './Home.module.css';
@@ -16,7 +16,7 @@ const Home = () => {
             <div className={css['greeting-wrap']}>
               <p className={css['greeting-text']}>
                 Welcome!
-              </p>
+                </p>
             </div>
           </Container>
         </Section>
